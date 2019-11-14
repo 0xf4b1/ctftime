@@ -9,6 +9,7 @@ My solutions for various CTF challenges
 - [rootersctf.in](rootersctf.in)
 - [ctf2019.syskron-security.com](ctf2019.syskron-security.com)
 - [picoctf-2019](picoctf-2019)
+- [sect-ctf](sect-ctf)
 - [affinityctf](affinityctf)
 
 Capturing flags for self-education in information security since July 2019.
