@@ -10,7 +10,8 @@ My solutions for various CTF challenges
 - [ctf2019.syskron-security.com](ctf2019.syskron-security.com)
 - [picoctf-2019](picoctf-2019)
 - [sect-ctf](sect-ctf)
-- [nactf](nactf)
+- [nactf.com](nactf.com)
+- [ctf.csaw.io](ctf.csaw.io)
 - [affinityctf](affinityctf)
 
 Capturing flags for self-education in information security since July 2019.
