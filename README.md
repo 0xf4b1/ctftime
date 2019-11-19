@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [ctf.ritsec.club](ctf.ritsec.club)
 - [nctf.vulnerable.kr](nctf.vulnerable.kr)
 - [hack.lu](hack.lu)
 - [seccon.jp](seccon.jp)
