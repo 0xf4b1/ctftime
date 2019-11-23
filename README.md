@@ -15,6 +15,7 @@ My solutions for various CTF challenges
 - [ctf.csaw.io](ctf.csaw.io)
 - [affinityctf](affinityctf)
 - [twctf](twctf)
+- [pase.ca](pase.ca)
 
 Capturing flags for self-education in information security since July 2019.
 
