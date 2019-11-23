@@ -16,6 +16,7 @@ My solutions for various CTF challenges
 - [affinityctf](affinityctf)
 - [twctf](twctf)
 - [pase.ca](pase.ca)
+- [hackcon.online](hackcon.online)
 
 Capturing flags for self-education in information security since July 2019.
 
