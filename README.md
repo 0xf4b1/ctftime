@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [watevrctf](watevrctf)
 - [tuctf.com](tuctf.com)
 - [ctf.ritsec.club](ctf.ritsec.club)
 - [nctf.vulnerable.kr](nctf.vulnerable.kr)
