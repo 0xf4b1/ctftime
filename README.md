@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [utc-ctf.club](utc-ctf.club)
 - [wtftime](wtftime)
 - [justctf](justctf)
 - [xmasctf](xmasctf)
