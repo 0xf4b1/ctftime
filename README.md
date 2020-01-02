@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [play.kaf.sh](play.kaf.sh)
 - [utc-ctf.club](utc-ctf.club)
 - [wtftime](wtftime)
 - [justctf](justctf)
