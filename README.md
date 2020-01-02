@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [justctf](justctf)
 - [xmasctf](xmasctf)
 - [watevrctf](watevrctf)
 - [tuctf.com](tuctf.com)
