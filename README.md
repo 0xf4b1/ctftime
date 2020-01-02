@@ -2,6 +2,7 @@
 
 My solutions for various CTF challenges
 
+- [wtftime](wtftime)
 - [justctf](justctf)
 - [xmasctf](xmasctf)
 - [watevrctf](watevrctf)

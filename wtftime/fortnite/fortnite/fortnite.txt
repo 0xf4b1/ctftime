@@ -1,0 +1,16 @@
+The following Python 3 script decrypts a FortiGuard message (the static XOR key
+has been removed from this advisory).
+
+from itertools import cycle
+def forti_xor(s1):
+    xor_key = **removed**
+    message = ''.join(chr(c ^ k) for c, k in zip(s1, cycle(xor_key)))
+    return message
+r1=bytes.fromhex('6968766f606e776c2d2d21262138475c5b5a475b545e475c6b6a776b646e776c6b6a772b646e776c6b6a776b646e776c6b6a776bbadf04036b6a776c616a846f')
+print(repr(forti_xor(r1)))
+
+In this case the encrypted message contents are:
+'\x02\x02\x01\x04\x04\x00\x00\x00FGVMEV0000000000\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00...'
+
+
+Original Source: https://seclists.org/bugtraq/2019/Nov/38
