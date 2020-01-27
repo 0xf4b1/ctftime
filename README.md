@@ -27,6 +27,7 @@ My solutions for various CTF challenges
 - [ctf.sec.army](ctf.sec.army)
 - [ctf.redpwn.net](ctf.redpwn.net)
 - [gctf-2019](gctf-2019)
+- [gctf-2018](gctf-2018)
 
 Capturing flags for self-education in information security since July 2019.
 
