@@ -1,0 +1,37 @@
+[../](../../)
+
+# Buenos Aires - Conference
+
+> You are showing the invitation so that you can enter the conference. There are hundreds of important looking people at the conference. You take a glass of champagne from a tray, and try to look important yourself. After being busy with trying to look important for a few minutes, you approach the person that you are here to get classified information from. He introduces himself as Dr. Nowak Wasilewski. Nowak asks who you are, and if you can prove your knowledge through a test that he has designed by himself.
+
+## Challenge: ReadySetAction (crypto)
+
+> Apparently this script was used to encrypt super secret messages. Maybe there is something interesting in it? NOTE: this challenge was previously broken, redownload to get the correct file.
+
+> https://storage.googleapis.com/gctf-2021-attachments-project/aad0cde922e43ccbf05b02b7ccb3851a96473d9a1e7e228344bfb6b45c95d1b6277250695f34bb94120033b90cb91b30e29ca24e9ea44b0a2e11fa202b8f19e5
+
+## Solution
+
+```python
+from Crypto.Util.number import *
+from decimal import *
+
+getcontext().prec = 100
+
+c = 15478048932253023588842854432571029804744949209594765981036255304813254166907810390192307350179797882093083784426352342087386691689161026226569013804504365566204100805862352164561719654280948792015789195399733700259059935680481573899984998394415788262265875692091207614378805150701529546742392550951341185298005693491963903543935069284550225309898331197615201102487312122192298599020216776805409980803971858120342903012970709061841713605643921523217733499022158425449427449899738610289476607420350484142468536513735888550288469210058284022654492024363192602734200593501660208945967931790414578623472262181672206606709
+n = 21034814455172467787319632067588541051616978031477984909593707891829600195022041640200088624987623056713604514239406145871910044808006741636513624835862657042742260288941962019533183418661144639940608960169440421588092324928046033370735375447302576018460809597788053566456538713152022888984084306297869362373871810139948930387868426850576062496427583397660227337178607544043400076287217521751017970956067448273578322298078706011759257235310210160153287198740097954054080553667336498134630979908988858940173520975701311654172499116958019179004876438417238730801165613806576140914402525031242813240005791376093215124477
+power = Decimal(1.0)/Decimal(3)
+
+while True:
+    encrypt = int(Decimal(c)**power)
+    flag = long_to_bytes(encrypt)
+    if flag.startswith(b"CTF"):
+        break
+    c += n
+
+print(flag)
+```
+
+flag: `CTF{34sy_RS4_1s_e4sy_us3}`
+
+> Nowak is very impressed by your skills. You and him sit down by a table, and you order lots of drinks for him. As the conversation goes on, Nowak begins to loosen up a bit and is talking about all kinds of things. Eventually he accidently reveals the location of an office complex in NYC that seems to have very much to do with the whole operation.
