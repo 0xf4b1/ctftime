@@ -1,6 +1,8 @@
-# ctftime
+# 2021
 
-My solutions for various CTF challenges
+- [Google CTF 2021 Beginners Quest](gctf-2021-beginners)
+
+# 2019
 
 - [play.kaf.sh](play.kaf.sh)
 - [utc-ctf.club](utc-ctf.club)
