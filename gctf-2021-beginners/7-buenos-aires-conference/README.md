@@ -1,4 +1,4 @@
-[../](../../)
+[../](../)
 
 # Buenos Aires - Conference
 

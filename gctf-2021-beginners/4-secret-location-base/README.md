@@ -1,4 +1,4 @@
-[../](../../)
+[../](../)
 
 # Secret Location - Base
 

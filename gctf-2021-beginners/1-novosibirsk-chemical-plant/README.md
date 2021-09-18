@@ -1,4 +1,4 @@
-[../](../../)
+[../](../)
 
 # Novosibirsk - Chemical plant
 
